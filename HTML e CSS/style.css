@@ -1,0 +1,93 @@
+body{
+    color: rgb(78, 78, 150);
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 15px;
+}
+h1{
+    font-size: 50px;
+    font-family: chocofont  ;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(78, 78, 150);
+    transition: 0.4s all;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#title{
+    flex-direction: column;
+
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 45px;
+    color: black;
+}
+
+img{
+    width: 600px;
+}
+
+#borda-contrato{
+    border: 2px solid rgb(78, 78, 150);
+    padding: 10px;
+    border-radius: 20px;
+}
+#borda-contrato:hover{
+    background-color: rgb(78, 78, 150);
+    color: black;
+}
+
+p{
+    color: rgb(30, 16, 88);
+    max-width: 530px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 30;
+}
+
+form [type="submit"]{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(78, 78, 150);
+    color: black;
+    font-weight: bold;
+}
+form [type="submit"]{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: chocofont;
+    src: url(Font/TT\ Chocolates\ Trial\ Bold\ italic.otf);
+}
